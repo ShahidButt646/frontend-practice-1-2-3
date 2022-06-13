@@ -1,0 +1,186 @@
+<!DOCTYPE html5>
+<html lang="en" dir="ltr">
+    
+    <head>
+        <title>My First HtML</title>
+        <favicon width="10px" height="10px" src="C:\Users\Nadia Saleem\Desktop\danish study\the wutcher\8th turkish\THUMB.jpg">
+        <link rel="stylesheet" href="..\css\style.css">
+    </head>
+    <body>
+        <img width="10px" height="10px" src="C:\Users\Nadia Saleem\Desktop\danish study\the wutcher\8th turkish\THUMB.jpg">
+        <!--I am Practicin what i have learned in HTML course from Youtube-->
+        <h1> Heading & Formatting Tags  </h1>
+        <p> This is <b>paragraph</b> Tag </p>
+        <h2> H2. Mark  </h2>
+        <p> This is <mark>paragraph Tag</mark> </p>
+        <h3> <del>H3. Del </del>  </h3>
+        <p> This is paragraph Tag, and in this i am gonna practice few <abbr title="<p>, <b>, <abbr>, <q>, <sub/sup>, <br>"> FT</abbr> of html. </p>
+        <h4> H4. Quotation </h4>
+        <p> This <q>is paragraph</q> Tag </p>
+        <h5> H5. Super Script  </h5>
+        <p> This 2<sup>2</sup>is paragraph Tag </p>
+        <h6> H6. Sub Script  </h6>
+        <p> 2<sub>2</sub> </p>
+        <div class="links">
+            <h1>Links</h1>
+            <a href="#" target="_blank" title="This Is Scam Link"> Links</a><br>
+            <a href="mailto:abc@gmail.com?subject=Applying  " target="_blank" title="This Is Scam Link"> Email Link</a>
+            
+         </div>
+         <hr>
+         <div class="imgage">
+             <h1>Images</h1>
+             <img src="C:\Users\Nadia Saleem\Desktop\danish study\the wutcher\8th turkish\THUMB.JPG" alt="it is a thumbnail" width="50%" height="50%">
+        </div>
+        <div class="Lists">
+            <h1>Order, Unorder & Description Lists</h1>
+            <ul>
+                <li>    First   </li>
+                <li>    Second   </li>
+                <li>    Third   </li>
+                <li>    Fourth   </li>
+                
+            </ul>
+            <ol type="A">
+                <li>    First   </li>
+                <li>     Order Roman List  
+                    <ol type="I">
+                        <li>    First   </li>
+                        <li>    Second   </li>
+                        <li>    Third   </li>
+                        <li>    Fourth   </li>
+                        
+                    </ol>
+                </li>
+                <li>    Third   </li>
+                <li>Description List
+                    <dl type="A">
+                        <dt>    First   </dt>
+                        <dd>    This is first desctiption </dd>
+                        <dt>    Second   </dt>
+                        <dd>    This is second description </dd>   
+                        
+                    </dl>
+                </li>
+                
+            </ol>    
+        </div> 
+        <div class="table">
+            <h1>Table</h1>
+            <table border="2px" >
+                <thead>
+                <tr>
+                    <td> hello </td>
+                    <td> hello </td>
+                    <td> hello </td>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> hello </td>
+                        <td> hello </td>
+                        <td> hello </td>
+                    </tr>
+                    <tr>
+                        <td> hello </td>
+                        <td> hello </td>
+                        <td> hello </td>
+                    </tr>
+                </tbody>
+            </table>
+         </div>
+        
+    
+         <div class="Iframes">
+            <h1>IFRAMES, Audio, PDF & Video Files &#169;</h1>
+            <iframe width="30%" height="315" src="https://www.youtube.com/embed/ww8JgI6vj0c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <embed src="file:///C:/Users/Nadia%20Saleem/Desktop/danish%20study/computer%20chaper%20and%20books/ch02_2.pdf" width="20%" height="50%">
+            <video autoplay controls width="20%" height="50%">
+                
+               <source src="C:\Users\Nadia Saleem\Desktop\danish study\the wutcher\4th and 5th video\the Fault in our Stars with ennd.mp4" type="video/mp4">
+           </video>
+           <audio controls>
+            <source src="C:\Users\Nadia Saleem\Desktop\danish study\the wutcher\3sre video\goof.wav" type="audio/wav">
+            </audio>
+
+            </div>
+            <div class="Forms">
+                <form>
+                <h1>Forms</h1>
+                <fieldset>
+                    <legend>Patient Info</legend>
+                    <label for="fname">First Name</label>
+                    <input id="fname" type="text">
+                    <label for="password">Password</label>
+                    <input id="password" type="password">
+                    <label for="email">email</label>
+                    <input id="email" type="email">
+                    <label for="Phone">Phone Number</label>
+                    <input id="Phone" type="phone">
+                    <label for="color">color</label>
+                    <input id="color" type="color">
+                    <label for="range">range</label>
+                    <input id="range" type="range" max="1000" min="0">
+                    <label for="date">date</label>
+                    <input id="date" type="date">
+                 
+                    
+                </fieldset>
+
+                <fieldset>
+                    <legend>Address</legend>
+                    <label for="street">Street</label>
+                    <input id="street" list="name1" type="text">
+                    <label for="city">City</label>
+                    <input id="city"list="name1" type="text">
+                    <label for="zip">Zip Code</label>
+                    <input id="zip" list="name1" focus type="number">
+                    <label for="street">Street</label>
+                    <input id="street" type="text">
+                    <datalist id="name1">
+                        <option>mango</option>
+                        <option>mangwqo</option>
+                        <option>mangoas</option>
+                    </datalist>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Insurance</legend>
+                    <label for="ins">Insurance</label>
+                    <input id="ins" type="text">
+                </fieldset>
+                <fieldset>
+                <input type="reset">
+                <input type="submit" value="click me">
+                </fieldset>
+            </form>
+            </div>
+            <h1>Dropdown, Check Box, Radio</h1>
+            <select>
+                <optiongroup label="car">
+                    <option>One</option>
+                    <option selected>Two</option>
+                    <option>Three</option>
+                    <option>Four</option>
+                </optiongroup>
+                <optiongroup label="Bikes">
+                    <option>One</option>
+                    <option>Two</option>
+                    <option>Three</option>
+                    <option>Four</option>
+                </optiongroup>
+
+            </select>
+
+            <input name="Gender" id="female" type="radio" checked> 
+            <label for="female">Female</label>
+            <input name="Gender" id="male" type="radio"> 
+            <label for="male">Male</label>
+            <input name="hobby" id="hockey" type="checkbox" checked>
+            <label for="hockey">Hockey</label>
+            <input name="hobby" id="cric" type="checkbox" checked>
+            <label for="cric">Cricket</label>
+         
+         
+    </body>   
+</html>
