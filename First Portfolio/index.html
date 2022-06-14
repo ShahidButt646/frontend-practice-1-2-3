@@ -1,0 +1,140 @@
+<html>
+<head>
+	<title> Portfolio </title>
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	
+</head>
+<style>
+*{
+	background: rgb(0,0,0);
+	color: red;
+	
+}
+.container {
+		width: 95%;
+		height: 95%;
+		margin: 20px auto;
+		border-radius: 30px;
+		background: rgb(23, 23, 23);
+		box-shadow: 4px 4px 10px #000000;
+		
+		border: 2px solid yellow;
+}
+.nav {
+	background: transparent;
+	height: 15%;
+	overflow: hidden;
+}
+.logo{
+	float: left;
+	height: 60px;
+	margin-left: 40px;
+	margin-top: 18px;
+	pointer-events: none;
+	background: rgb(23, 23, 23);
+}
+
+
+.nav ul {
+	position: relative;
+	top: 25px;
+	left: -20px;
+	background: rgb(23, 23, 23);
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	float: right;
+	color: red;
+	font-size: 0.9em;
+	text-transform: uppercase;
+	
+}
+.nav1 li {
+	background: transparent;
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 40px;	
+}
+.nav1 li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: red;
+	background: transparent;
+	cursor: pointer;
+}
+.heavy{
+	background: transparent;
+	display: flex;
+	justify-content: space-between;
+	
+	height: 85%;	
+	overflow: hidden;
+}
+.intro{
+	background: transparent;
+	
+	margin-top: 8%;
+	width: 50%;
+	height: 150px;
+	margin-left: 40px;
+}
+.intro h1{
+	text-transform: uppercase;
+	background: transparent;
+	margin-bottom: 0px;
+	
+}
+.intro p{
+	background: transparent;
+	margin-top: 5px;
+	line-height: 20px;
+	font-size: 1.05em;
+}
+.shpic{
+	background: transparent;
+	position: relative;
+	top: 200px;	
+	width: 50%;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
+.shpic .shimage{
+	background: transparent;
+	height: 800px;
+	object-fit: contain;
+	
+	
+}
+</style>
+<body>
+	<div class="container">
+		
+		<div class="nav">
+			<img src="among.png" class="logo" style="float: left;">
+			<ul class="nav1" >
+				<li><a href="#"> Home </a></li>
+				<li><a href="#"> About Me </a></li>
+				<li><a href="#"> Contact Me </a></li>
+				<li><a href="#"> Links </a></li>
+				<li><a href="#"> Experience </a></li>
+				<li><a href="#"> Hire Me </a></li>
+			</ul>
+		</div>
+		<div class="heavy">
+			<div class="intro">
+				<h1> I'm Shahid Butt, The Beginner </h1>
+				<p> I'm trying to build a portfolio, it's not so that i could land a job, i'm doing it because <br>i did'nt have 
+				anything thing fuck-worthy. Hope you like it.</p>
+			</div>
+			<div class="shpic">
+				<img src="danish.png" class="shimage">
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
